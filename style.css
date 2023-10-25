@@ -107,7 +107,7 @@ a {
 
 .box_content {
     width: 100%;
-    padding: 0 20%;
+    padding: 0 25%;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -148,4 +148,50 @@ a {
     font-style: normal;
     font-weight: 800;
     padding-left: 35%;
+}
+
+.fourth_layer_wrapper {
+    padding: 3% 18%;
+}
+
+.fourth_layer {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 5% 0;
+}
+
+.fourth_layer_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 13%;
+}
+
+.fourth_layer_internal_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: #E5E7EB;
+}
+
+.call_time {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sing_up_button {
+    font-weight: bold;
+    font-size: 24px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: #E5E7EB solid 2px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 3% 0;
 }
